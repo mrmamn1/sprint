@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- شكل اللائحة -->
+    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+    
+    <!-- البنود -->
+    <line x1="10" y1="9" x2="18" y2="9"></line>
+    <line x1="10" y1="13" x2="18" y2="13"></line>
+    <line x1="10" y1="17" x2="18" y2="17"></line>
+    
+    <!-- علامة الصح -->
+    <polyline points="7 9 5 11 3 9"></polyline>
+    <polyline points="7 13 5 15 3 13"></polyline>
+    <polyline points="7 17 5 19 3 17"></polyline>
+</svg>

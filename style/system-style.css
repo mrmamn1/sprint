@@ -1,0 +1,28 @@
+.System-Print {
+    position: relative;
+    display: block;
+    text-align: left;
+    direction: ltr;
+    border: solid 1px #000;
+    color: #000000;
+    background-color: #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: #ee0000;
+}
+
+.form-c .error-input {
+    border: rgba(255, 0, 0, 0.8) solid 1px !important;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+.form-c .error-span {
+    color: rgba(255, 0, 0, 0.8) !important;
+}

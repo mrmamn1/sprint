@@ -1,0 +1,43 @@
+<nav class="navbar">
+    <div class="navbar-brand">{$title}</div>
+
+    <div class="navbar-icons">
+        <!-- أيقونة المنبه -->
+        <button class="icon-btn home-btn" aria-label="الإشعارات">
+            <a href="?p=index"><i class="fas fa-home"></i></a>
+        </button>
+
+        <!-- أيقونة المستخدم -->
+        <button class="icon-btn user-btn" aria-label="حساب المستخدم">
+            <a href="?p=profile"> <i class="fas fa-user"></i></a>
+        </button>
+
+        <!-- أيقونة الرسائل -->
+        <button class="icon-btn messages-btn" aria-label="الرسائل الخاصة">
+            <a href="?p=pm"><i class="fas fa-envelope"></i></a>
+            <span class="notification-badge">{$count_new_messages}</span>
+        </button>
+
+        <!-- أيقونة الإعدادات -->
+        <button class="icon-btn settings-btn" aria-label="الإعدادات">
+            <a href="?p=setting"><i class="fas fa-cog"></i></a>
+        </button>
+
+        <!-- أيقونة المنبه -->
+        <button class="icon-btn notification-btn" aria-label="الإشعارات">
+            <a href="?p=notification"><i class="fas fa-bell"></i></a>
+            <span class="notification-badge">{$count_new_notification}</span>
+        </button>
+
+        <!-- أيقونة تسجيل الخروج -->
+        <button class="icon-btn logout-btn" aria-label="تسجيل الخروج">
+            <a href="?p=logout"><i class="fas fa-sign-out-alt"></i></a>
+        </button>
+
+        <!-- زر تبديل الوضع -->
+        <button id="theme-switcher" class="theme-switcher" aria-label="تبديل الوضع">
+            <i class="fas fa-moon"></i>
+            <span class="theme-text">الوضع الداكن</span>
+        </button>
+    </div>
+</nav>

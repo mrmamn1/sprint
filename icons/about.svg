@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- دائرة الخلفية -->
+  <circle cx="50" cy="50" r="40" fill="#2563eb" stroke="#2563eb" stroke-width="3"/>
+  
+  <!-- حرف i -->
+  <circle cx="50" cy="30" r="5" fill="#ffffff"/>
+  <rect x="47" y="40" width="6" height="25" rx="3" fill="#ffffff"/>
+</svg>
